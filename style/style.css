@@ -1,0 +1,27 @@
+/* shared style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
