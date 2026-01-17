@@ -140,6 +140,10 @@ img{
   border-radius: 8px;
 }
 
+.hero-content form #hero-search-btn:hover{
+  background-color: #414040;
+}
+
 @media screen and (max-width: 480px) {
   .hero-content{
     padding: 30px 20px;
@@ -309,5 +313,89 @@ section.practice-area{
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .pa-card-area>div{
     padding: 40px;
+  }
+}
+
+/* review section */
+.review-content h2{
+  margin-bottom: 24px;
+  color: #414040;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.review-content p{
+  margin-bottom: 64px;
+  padding: 0 270px;
+  color: #707070;
+}
+
+.review-content .rc-img{
+  padding: 95px 135px;
+  background: url(../images/banner.png) rgba(17, 17, 17, 0.8);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.review-content .rc-img img{
+  justify-self: center;
+  margin-bottom: 24px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.review-content .rc-img h3{
+  margin-bottom: 4px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.review-content .rc-img h4{
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.review-content .rc-img article{
+  color: #F3F3F3;
+}
+
+@media screen and (max-width: 480px) {
+  .review-content h2{
+    font-size: 2rem;
+  }
+
+  .review-content p{
+    padding: 0;
+  }
+
+  .review-content .rc-img{
+    padding: 60px 40px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .review-content p{
+    padding: 0 50px;
+  }
+
+  .review-content .rc-img{
+    padding: 80px 80px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .review-content p{
+    padding: 0 200px;
+  }
+
+  .review-content .rc-img{
+    padding: 95px 100px;
+    background-position: center;
   }
 }
