@@ -523,3 +523,142 @@ section.question{
     align-content: center;
   }
 }
+
+/* contact section */
+section.contact{
+  margin-bottom: 120px;
+}
+
+.c-content h2{
+  text-align: center;
+  margin-bottom: 24px;
+  color: #414040;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.c-content .c-p1{
+  text-align: center;
+  margin-bottom: 64px;
+  padding: 0 270px;
+  color: #707070;
+}
+
+.c-content .c-dt .c-dt-info{
+  background-color: #cfcfcf;
+  gap: 1px;
+}
+
+.c-content .c-dt .c-dt-info:hover{
+  background-color: #b6845a;
+}
+
+.c-content .c-dt .c-dt-info>div{
+  padding: 65px;
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-content .c-dt .c-dt-info>div img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.c-content .c-dt .c-dt-info>div h3{
+  margin-bottom: 16px;
+  color: #414040;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.c-content .c-dt .c-dt-info>div address{
+  color: #707070;
+}
+
+.c-content .c-dt .c-dt-info>div span a{
+  display: block;
+  color: #707070;
+}
+
+.c-content .c-dt .c-dt-info>div p{
+  margin-bottom: 0;
+  color: #707070;
+}
+
+.c-content .c-dt .c-dt-form input{
+  padding: 23px;
+  margin-bottom: 30px;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+}
+
+.c-content .c-dt .c-dt-form textarea{
+  margin-bottom: 30px;
+  padding: 23px;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+}
+
+.c-content .c-dt .c-dt-form #c-dt-form-btn{
+  margin-bottom: 0;
+  padding: 23px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #B68C5A;
+  border-radius: 8px;
+}
+
+.c-content .c-dt .c-dt-form #c-dt-form-btn:hover{
+  background-color: #414040;
+}
+
+@media screen and (max-width: 480px) {
+    section.contact{
+    margin-bottom: 80px;
+  }
+
+  .c-content h2{
+    font-size: 2rem;
+  }
+
+  .c-content .c-p1{
+    padding: 0;
+  }
+
+  .c-content .c-dt{
+    flex-direction: column;
+  }
+
+  .c-content .c-dt .c-dt-info{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  section.contact{
+    margin-bottom: 80px;
+  }
+
+  .c-content .c-p1{
+    padding: 0 50px;
+  }
+
+  .c-content .c-dt{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .c-content .c-p1{
+    padding: 0 200px;
+  }
+
+  .c-content .c-dt{
+    flex-direction: column;
+  }
+}
