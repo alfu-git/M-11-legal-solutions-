@@ -216,7 +216,7 @@ section.practice-area{
 
 .pa-content h2{
   margin-bottom: 24px;
-  font-size: 3em;
+  font-size: 2.2rem;
   color: #414040;
   font-weight: 800;
 }
@@ -320,7 +320,7 @@ section.practice-area{
 .review-content h2{
   margin-bottom: 24px;
   color: #414040;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 800;
 }
 
@@ -397,5 +397,129 @@ section.practice-area{
   .review-content .rc-img{
     padding: 95px 100px;
     background-position: center;
+  }
+}
+
+/* question section */
+section.question{
+  margin: 120px 0;
+}
+
+.q-content h2{
+  text-align: center;
+  margin-bottom: 24px;
+  color: #414040;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.q-content .q-p1{
+  text-align: center;
+  margin-bottom: 64px;
+  padding: 0 270px;
+  color: #707070;
+}
+
+.q-content-dt{
+  gap: 30px;
+}
+
+.q-content .q-content-dt .qstn-area>div{
+  margin-bottom: 30px;
+  padding: 32px;
+  width: 400px;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+}
+
+.q-content .q-content-dt .qstn-area>div h3{
+  margin-bottom: 16px;
+  color: #414040;
+  font-style: 1.2rem;
+  font-weight: 800;
+}
+
+.q-content .q-content-dt .qstn-area>div p{
+  color: #707070;
+}
+
+.q-content .q-content-dt .qstn-area>div> h3>span{
+  font-size: 1.2rem;
+  margin-left: 50px;
+}
+
+.q-content .q-content-dt .qstn-img{
+  align-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  section.question{
+    margin: 80px 0;
+  }
+
+  .q-content h2{
+    font-size: 2rem;
+  }
+
+  .q-content .q-p1{
+    padding: 0;
+  }
+
+  .q-content-dt{
+    flex-direction: column-reverse;
+  }
+
+  .q-content .q-content-dt .qstn-area>div{
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  section.question{
+    margin: 80px 0;
+  }
+
+  .q-content .q-p1{
+    padding: 0 50px;
+  }
+
+  .q-content-dt{
+    flex-direction: column-reverse;
+  }
+
+  .q-content .q-content-dt .qstn-area{
+    justify-items: center;
+  }
+
+  .q-content .q-content-dt .qstn-area>div{
+    width: 100%;
+    text-align: center;
+  }
+
+  .q-content .q-content-dt .qstn-area>div h3{
+    font-size: 1.5rem;
+  }
+
+  .q-content .q-content-dt .qstn-area>div> h3>span{
+    font-size: 1.5rem;
+  }
+
+  .q-content .q-content-dt .qstn-area>div p{
+    padding: 0 85px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .q-content .q-p1{
+    padding: 0 200px;
+  }
+
+  .q-content .q-content-dt .qstn-area>div{
+    padding: 20px;
+  }
+
+  .q-content .q-content-dt .qstn-img{
+    align-content: center;
   }
 }
